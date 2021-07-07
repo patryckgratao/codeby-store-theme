@@ -16,6 +16,7 @@
   },
 
   "list-context.image-list#demo": {
+    "title": "Meu slide",
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 720,
