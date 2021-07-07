@@ -1,0 +1,34 @@
+{
+  "store.custom#be-sustainable": {
+    "blocks": ["flex-layout.row#sustainability-wrapper"]
+  },
+
+  "flex-layout.row#sustainability-wrapper": {
+    "title": "Content",
+    "children": ["flex-layout.col#sustainability"]
+  },
+
+  "flex-layout.col#sustainability": {
+    "props": {
+      "blockClass": "sustainability-wrapper"
+    },
+    "children": [
+      "image#sustainable-banner",
+      "flex-layout.col#cards-sustainability-wrapper"
+    ]
+  },
+
+  "image#sustainable-banner": {
+    "title": "Banner",
+    "props": {
+      "src": "assets/sustainability-banner.jpeg"
+    }
+  },
+
+  "flex-layout.col#cards-sustainability-wrapper": {
+    "props": {
+      "blockClass": "cards-sustainability-wrapper"
+    },
+    "children": []
+  }
+}
