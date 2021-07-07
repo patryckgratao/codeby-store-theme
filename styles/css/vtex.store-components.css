@@ -111,3 +111,26 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+@media screen and (min-width: 1120px) {
+  .infoCardImage--sustainability {
+    max-width: 400px;
+    margin: 0 40px;
+  }
+}
+
+.infoCardImage--sustainability {
+  border-radius: 0.75rem;
+}
+
+.infoCardContainer--sustainability {
+  max-width: 100%;
+  margin: 20px 0;
+  background-color: #f0f0f0;
+  padding: 1.2rem;
+  border-radius: 0.75rem;
+}
+
+.infoCardTextContainer--sustainability {
+  margin-bottom: 20px;
+}

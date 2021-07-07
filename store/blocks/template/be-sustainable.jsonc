@@ -48,6 +48,7 @@
       "headline": "What is sustainability?",
       "subhead": "Sustainability focuses on meeting the needs of the present without compromising the ability of future generations to meet their needs. The concept of sustainability is composed of three pillars: economic, environmental, and social—also known informally as profits, planet, and people.",
       "textAlignment": "right",
+      "blockClass": "sustainability",
       "callToActionMode": "none"
     }
   },
@@ -62,6 +63,7 @@
       "headline": "Sustainability Meaning",
       "subhead": "Sustainability means meeting our own needs without compromising the ability of future generations to meet their own needs. In addition to natural resources, we also need social and economic resources. Sustainability is not just environmental- ism.",
       "textAlignment": "left",
+      "blockClass": "sustainability",
       "callToActionMode": "none"
     }
   },

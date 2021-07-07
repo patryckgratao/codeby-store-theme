@@ -92,3 +92,20 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 1120px) {
+  .flexCol--cards-sustainability-wrapper {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .flexColChild--sustainability-wrapper {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .flexCol--cards-sustainability-wrapper {
+    max-width: 100%;
+  }
+}
