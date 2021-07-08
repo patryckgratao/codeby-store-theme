@@ -1,5 +1,5 @@
 {
   "wishlist-button": {
-    "component": "WishListButton.component"
+    "component": "WishListButtonWrapper.component"
   }
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 
-const WishListButton = () => {
+const WishListButton = ( { AddListenBtn } ) => {
   return(
     <div>
-      Hello World??
+      <AddListenBtn />
+      Add to WishList
     </div>
   )
 }
