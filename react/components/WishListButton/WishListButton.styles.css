@@ -1,7 +1,28 @@
 .wishListButtonContainer {
-  background-color: red;
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.wishListButtonContainer:hover {
+  background-color: #ccc !important;
+  transition: background-color 0.5s;
+}
+
+.wishListButtonContainer :global(.vtex-button) {
+  background-color: transparent;
+}
+
+.wishListButtonContainer :global(.vtex-button__label) {
+  padding: 0;
 }
 
 .wishListButtonText {
-  color: blue;
+  margin-left: 16px;
+  font-size: 14px;
 }
